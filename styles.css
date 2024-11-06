@@ -1,0 +1,58 @@
+.header{
+    background: #5D04D9;
+    display: flex;
+    justify-content: center;
+}
+
+.producto{
+    margin-top:7%;
+    margin-left: 10%;
+}
+
+aside{
+    text-align: right;
+}
+
+.footer{
+    font-family: 'IBM Plex Sans';
+    text-align: center;
+    margin-top: 12%;
+    background: #5D04D9;
+    color: blanchedalmond;
+}
+
+.aside{
+    margin-right: 10%;
+}
+
+ul li input{
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+    border-color: #03318B;
+    color: #03318B;
+}
+
+.aside .enviar {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #03318B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 101px;
+  }
+  
+  .aside .limpiar {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: white; /* Fondo blanco */
+    color: #03318B;          /* Texto azul */
+    border: 2px solid #03318B; /* Borde azul para hacer contraste */
+    border-radius: 8px;
+    cursor: pointer;
+    width: 101px;
+    height: 33px;
+  }
+  
