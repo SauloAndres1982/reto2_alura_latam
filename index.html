@@ -6,6 +6,8 @@
     <title>AluraGeeks</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -18,17 +20,18 @@
         <div class="producto">
             <img src="img/MIS PRODUCTOS_.png" alt="">
         </div>        
+        <div class="contenedor-imagenes"></div>
     </main>
 
     <aside>
         <div class="aside">
             <img src="img/AGREGAR PRODUCTO_.png" alt="">
             <ul>                   
-                <li><input type="text" value="Nombre..."></li>                
-                <li><input type="text" value="Precio..."></li>                
-                <li><input type="text" value="Imagen..."></li>
-                <button class="enviar">Enviar</button>
-                <button class="limpiar">Limpiar</button>                
+                <li><input type="text" id="nombre" placeholder="Nombre..."></li>
+                <li><input type="text" id="precio" placeholder="Precio..."></li>
+                <li><input type="text" id="imagenUrl" placeholder="Imagen URL..."></li>
+                <button class="enviar" onclick="agregarImagenes()">Enviar</button>
+                <button class="limpiar" onclick="limpiarImagenes()">Limpiar</button>                
             </ul>
         </div>
     </aside>
